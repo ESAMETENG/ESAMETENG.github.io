@@ -3635,12 +3635,15 @@ input, select, textarea {
 			display: flex;
 			padding: 0 !important;
 		}
+/*main*/
 
-			#contact > .inner > :nth-child(2n - 1) {
-				padding: 4em 3em 2em 0 ;
-				border-right: solid 1px rgba(212, 212, 255, 0.1);
-				width: 60%;
-			}
+    #main{
+		background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnczb3M1aDRhdnoweWtpYW01a3d6dXpuYTMwbmF5aXR3YWFnYXBkbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PQT2HigAI1HxaRXsPV/giphy.webp);
+		background-size: cover;
+
+	}			
+
+
 
 			#contact > .inner > :nth-child(2n) {
 				padding-left: 3em;
