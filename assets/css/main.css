@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242943;
+		background: #0e0d0ff6; /*更改底部背景*/
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3533,14 +3533,14 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHp6NDQyMnBuOWxmYjgwOXN2OTlwamFibnpzMTdnZmt4NDc5aXBzNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0K4kWJir91VEoa1W/giphy.webp)
+				background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHp1ejN0Z2F1OGt6OG5wcmhjNmZ0N3NoZTZqbHAxbDhqejdpYm1lNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KJguq9IjQVGYU/giphy.webp)
 			}
 		}
 
 		@media screen and (max-width: 1000px) {
 
 				#banner {
-					background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExazF3ZmFmc2oxdXUyaXFlMDBvYXg4cHBkNGhkNGwxZW40eTY3bnQ4ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/quuzDUI0T2dsni5hDD/giphy.webp)
+					background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmhhMHhwMHF3MXo1cmU5a2c4c296MjU1YnVremFrNjJybWExa3FsNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26hirTKDNSU5QRhrW/giphy.webp)
 				}
 		}
 		@media screen and (max-width: 800px) {
@@ -3966,3 +3966,14 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+.my-btn {
+	display: flex;
+	width: 120px;
+	height: 44px;
+	background-color: white;
+	color:#242943;
+	align-items:center;
+	justify-content: center;
+	border-radius: 1px;
+}
