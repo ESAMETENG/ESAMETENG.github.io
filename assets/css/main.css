@@ -1911,7 +1911,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: rgba(212, 212, 255, 0.035);
+		background: rgba(179, 60, 190, 0.26); /*更改背景色*/
 		border: none;
 		border-radius: 0;
 		color: inherit;
@@ -2133,9 +2133,9 @@ input, select, textarea {
 		}
 
 		.icon.alt:before {
-			background-color: #ffffff;
-			border-radius: 100%;
-			color: #242943;
+			background-color: #ffffff0c;
+			border-radius: 50%;
+			color: #ffffff;
 			display: inline-block;
 			height: 2em;
 			line-height: 2em;
