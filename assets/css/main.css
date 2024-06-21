@@ -3985,8 +3985,8 @@ input, select, textarea {
 	text-decoration: none;
 	border-bottom: 0;
 	background-color: brown;
-	width: 60px;
-	height: 60px;
+	width: 70px;
+	height: 70px;
 	border-radius: 50px;
 	display: flex;
 	justify-content: center;
@@ -4004,5 +4004,5 @@ input, select, textarea {
 
 .kk:hover {
 	color: red;
-	font-size: 2em;
+	font-size: 1.5em;
 }
